@@ -263,7 +263,7 @@ export function formatMessage(
     );
   }
 
-  return formattedMessage || message || defaultMessage || id;
+  return formattedMessage || message || defaultMessage || (hasValues ? `${id} ${JSON.stringify(values)}` : id);
 }
 
 export function formatHTMLMessage(
