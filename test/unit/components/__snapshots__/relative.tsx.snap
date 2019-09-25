@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormattedRelativeTime> supports function-as-child pattern 1`] = `
+<FormattedRelativeTime
+  unit="second"
+  value={0}
+>
+  <b>
+    Jest
+  </b>
+</FormattedRelativeTime>
+`;
