@@ -32,4 +32,5 @@ module.exports = {
     },
   },
   snapshotSerializers: ['enzyme-to-json/serializer'],
+  reporters: ['default', './tools/jest-reporter'],
 };
